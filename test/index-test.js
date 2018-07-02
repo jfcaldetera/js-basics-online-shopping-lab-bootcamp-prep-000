@@ -119,7 +119,7 @@ describe("total()", function() {
   });
 });
 
-/*describe("removeFromCart()", function() {
+describe("removeFromCart()", function() {
   it("removes the specified item from the cart", function() {
     addToCart("vanilla");
     addToCart("watermelon");
@@ -142,7 +142,7 @@ describe("total()", function() {
     // Repeat item name from previous test to prevent hard-coding.
     expect(removeFromCart("yams")).toEqual("That item is not in your cart.");
   });
-});*/
+});
 
 describe("placeOrder()", function() {
   it("doesn't place the order if a credit card number is not provided", function() {
